@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { questions } from "./data/getQuiz"
+import { questions } from "./data/getQuiz";
 import './App.css';
 
 function App() {
@@ -11,6 +11,9 @@ function App() {
     <div className="App">
       React typescript quiz app
       <h3>{quizCategory}</h3>
+      <section className="flex flex-col items-center justify-center">
+
+      </section>
     </div>
   );
 }
